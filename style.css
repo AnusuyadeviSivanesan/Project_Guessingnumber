@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+body{
+  font-family: 'Caprasino' , cursive;
+  background-image:url(http://wallpapercave.com/wp/FaAF3tj.jpg);
+
+.container{
+    
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+}
+#start{
+    margin-left: 180px;
+}
+.logo
+{
+    font-size: 5em;
+    text-shadow: -5px -5px 0 white,
+    5px -5px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white,
+
+}
+.button{
+    background-color : orangered;
+    color: burlywood;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: 800;
+    margin: 50px 0;
+    margin-bottom: 100px;
+}
+
+input
+{
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+    margin: 30px ;
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#submit{
+    margin-right: 150px;
+}
+h1{
+    font-size: 2em;
+}
+#message{
+    display: none;
+    font-size: 2em;
+}
